@@ -2,8 +2,10 @@ pragma solidity ^0.4.20;
 
 /* 
 * Simple implementation of a crowd sale. You send Ether, this contract sends you tokens.
-* For educational purposes ONLY. For security audited / more functional crowdsale contracts,
-* check out OpenZepplin's contracts:
+* Token price is fixed to be 1 GBT = 1 ETH.
+* 
+* This contract is for educational purposes ONLY. For security audited / more functional 
+* crowdsale contracts, check out OpenZepplin's github repository:
 *
 * https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/crowdsale
 * 
